@@ -2,7 +2,11 @@ body{
 background-color: rgba(244, 238, 168, 0.69)
 }
 
-.header {
+.header{
+  text-align: center;
+}
+
+.header h1{
   text-align: center;
   text-decoration: underline;
   color: rgb(0, 255, 224);
@@ -22,7 +26,8 @@ background-color: rgba(244, 238, 168, 0.69)
 }
 
 textarea {
-  margin-left: 62px;
+  display: inline-block;
+  /* margin-left: 62px; */
   font-size: 26px;
   text-align: center;
   color: rgb(0, 198, 210);
@@ -41,4 +46,25 @@ textarea:hover {
 
 .reg-input button:hover {
   border-color: black;
+}
+
+.plates h4{
+  margin: 20px;
+  text-decoration: underline;
+  color: rgb(70, 70, 73)
+}
+
+ul{
+  list-style: none;
+}
+
+li{
+  text-align: center;
+  border:solid;
+  width:180px;
+  height: 30px;
+  padding: 10px;
+  font-size: 20px;
+  background-color: rgb(163, 163, 163);
+  text-transform:uppercase;
 }
