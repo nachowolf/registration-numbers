@@ -1,0 +1,33 @@
+.top{
+  text-align: center;
+  text-decoration: underline;
+  text-shadow: 2px 2px rgb(7, 245, 180)
+}
+
+.platesList{
+  border-style: solid;
+}
+
+table{
+  font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+td:nth-child(1), th:nth-child(1){
+  text-align: center;
+}
+
+th{
+  text-decoration: underline;
+}

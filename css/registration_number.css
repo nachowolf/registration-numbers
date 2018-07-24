@@ -1,12 +1,30 @@
-body{
-background-color: rgba(244, 238, 168, 0.69)
+.topnav {
+  display: inline-block;
+  width: 100%;
 }
 
-.header{
+.topnav button {
+  margin-right: 10px;
+  margin-top: 10px;
+  float: right;
+  color: white;
+  background-color: rgb(59, 60, 59);
+  transition-duration: 0.4s;
+}
+
+.topnav button:hover{
+  box-shadow: 2px 2px 2px 2px black;
+}
+
+body {
+  background-color: rgba(244, 238, 168, 0.69)
+}
+
+.header {
   text-align: center;
 }
 
-.header h1{
+.header h1 {
   text-align: center;
   text-decoration: underline;
   color: rgb(0, 255, 224);
@@ -31,7 +49,7 @@ textarea {
   font-size: 26px;
   text-align: center;
   color: rgb(0, 198, 210);
-  text-shadow:1px 1px black;
+  text-shadow: 1px 1px black;
   text-transform: uppercase;
 }
 
@@ -42,29 +60,30 @@ textarea:hover {
 .reg-input button {
   background: rgb(66, 255, 0);
   color: black;
+  transition-duration: 0.4s;
 }
 
 .reg-input button:hover {
-  border-color: black;
+  box-shadow: 4px 4px black;
 }
 
-.plates h4{
+.plates h4 {
   margin: 20px;
   text-decoration: underline;
   color: rgb(70, 70, 73)
 }
 
-ul{
+ul {
   list-style: none;
 }
 
-li{
+li {
   text-align: center;
-  border:solid;
-  width:180px;
+  border: solid;
+  width: 180px;
   height: 30px;
   padding: 10px;
   font-size: 20px;
   background-color: rgb(163, 163, 163);
-  text-transform:uppercase;
+  text-transform: uppercase;
 }
